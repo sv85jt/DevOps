@@ -1,0 +1,13 @@
+root@n0469l0022p-dso:/etc/puppetlabs/code/environments/production/site-modules # ls
+false,                      lin_flexera             lin_postfix_enable     linux_ntt_hiera          windows_automox_reg_config
+helloworld                  lin_generic_user        lin_splunk             linux_root_history       windows_carbon_black
+lib_aa_disable_puppet_repo  lin_hosts               lin_sssd               linux_service_logwatch   windows_flexerainstall
+lin_aa_firewall             lin_insightvm           lin_sssd_v2            linux_service_restart    windows_os_firewall_settings
+lin_ab_exec_cis_role        lin_insightvm_cloud     lin_update             linux_sudo_generic       windows_patrol_agent
+lin_ac_sleep                lin_insightvm_cloud_vm  linux_auditd           lin_zpatrol_agent        windows_splunk
+lin_addm_sudo               lin_insightvm_delete    linux_bashrc_add       present,                 windows_user_disableguest
+lin_ad_satellite_connect    lin_issue_net           linux_cyberark_sudo    puppet_conf_settings     windows_z_cis_hardening_clarios
+lin_ad_wget_install         lin_ntp                 linux_disable_yumrepo  s1000016 ALL=(ALL) ALL,  windows_zz_cis_validation
+lin_cylance                 lin_postfix             linux_goc_sudo         test_module
+You have mail in /var/spool/mail/root
+root@n0469l0022p-dso:/etc/puppetlabs/code/environments/production/site-modules #
